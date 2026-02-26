@@ -1,0 +1,76 @@
+@import url("https://fonts.googleapis.com/css2?family=Inconsolata:wght@200..900&display=swap");
+header {
+  height: 6vh;
+  display: flex;
+  align-items: center;
+  width: 100vw;
+  border-bottom: 1px solid #314158;
+}
+header p {
+  height: 100%;
+  width: 20vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-right: 1px solid #314158;
+}
+header nav {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+header nav ul {
+  display: flex;
+}
+header nav ul li {
+  height: 100%;
+  width: 10vw;
+  border-right: 1px solid #314158;
+}
+header nav ul li a {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+header nav ul li a:hover {
+  border-bottom: 3px solid #FFB86A;
+  color: white;
+}
+header nav ul li {
+  height: 100%;
+  width: 10vw;
+  border-left: 1px solid #314158;
+}
+header nav ul li a {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+header nav ul li a:hover {
+  border-bottom: 3px solid #FFB86A;
+  color: white;
+}
+
+.header-btn-active {
+  border-bottom: 3px solid #FFB86A;
+  color: white;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  color: #90A1B9;
+  list-style: none;
+  list-style-type: none;
+  font-family: "Inconsolata", monospace;
+  text-decoration: none;
+}
+
+html, body {
+  background-color: #0F172B;
+}/*# sourceMappingURL=main.css.map */

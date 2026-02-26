@@ -1,0 +1,21 @@
+// IMPORTS
+@use "./components/_header.scss";
+@use "./components/_classes.scss";
+
+// FONTS
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@200..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    color: #90A1B9;
+    list-style: none;
+    list-style-type: none;
+
+    font-family: "Inconsolata", monospace;
+    text-decoration: none;
+}
+
+html, body {
+    background-color: #0F172B;
+}
